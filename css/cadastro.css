@@ -1,6 +1,5 @@
-.container{
+#container{
     background-color: lightgrey;
-    border-radius: 1px;
     border-color: black;
     border-style: solid;
     border-radius: 2%;
@@ -10,15 +9,18 @@
     margin-right: 30%;
     height: 500px;
     width: 500px;
-    gap:30px;
     display: flex;
     justify-content: center;
     align-items: center;
+    
     font-family: 'Times New Roman', Times, serif;
     font-size: large;
     font-weight: lighter;
 }
 
+#lool{
+    text-align: center;
+}
 
 
 h1{

@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Faça seu Login!</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cadastro.css">
 </head>
 <body>
 
-    <Div class="container">
 
-        <form id="form" action="home.html">
+    <Div id="container">
+
+        <form id="form">
             <h1>Login</h1>
             <label for="name">Nome:</label><br>
             <input type="text" id="name" name="name" placeholder="Seu nome aqui" size="25"><br>
@@ -18,10 +19,11 @@
             <input type="email" id="email" name="email" placeholder="exemplo@exemplo.com" size="25"><br>
             <label for="senha">Senha:</label><br>
             <input type="password" id="senha" name="senha" placeholder="abc@123" size="25"><br>
-            
-            <a id="lool" href="cadastro.html">Não tem Login? Cadastrar</a> <br>
-            <input type="submit" id="submit" name="submit" value="Entrar!">
-            
+            <label for="senha">Repita a Senha:</label><br>
+            <input type="password" id="senha" name="senha" placeholder="abc@123" size="25"><br>
+
+            <input type="submit" id="submit" name="submit" value="Entrar!"> <br>
+            <a id="lool" href="index.html">Já tem uma conta? Login</a>
         </form>
 
 

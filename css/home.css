@@ -1,0 +1,29 @@
+body{
+    background-color: lightgrey;
+    margin: 0%;
+}
+
+nav{
+    text-align: center;
+}
+
+a{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: lighter;
+    margin-right: 30px;
+    margin-left: 30px;
+    border-radius: 5%;
+    color: black;
+}
+
+header{
+    background-color: darkgrey;
+    border-color: black;
+    border-width: 2px;
+    margin-right: 0%;
+    margin-left: 0%;
+    border-style: solid;
+    margin-top: 0%;    
+    text-align: center;
+}
